@@ -4,14 +4,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { ButtonComponent } from './components/button/button.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { SecondaryButtonComponent } from './components/button/secondary-button/secondary-button.component';
+import { PrimaryButtonComponent } from './components/button/primary-button/primary-button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    ButtonComponent
+    PrimaryButtonComponent,
+    SecondaryButtonComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule
